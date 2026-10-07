@@ -1,0 +1,60 @@
+{
+  "question": "Who raised a hand while S4 was talking?",
+  "query": {
+    "select": {
+      "action": "hand_raise",
+      "person": null,
+      "zone": null
+    },
+    "relation": [
+      "concurrent"
+    ],
+    "to": {
+      "action": "talking",
+      "person": "S4",
+      "zone": null
+    },
+    "aggregate": "list",
+    "pick": "all",
+    "eps": 0.25
+  },
+  "planner_source": "rules",
+  "answer": {
+    "question": "Who raised a hand while S4 was talking?",
+    "answer": "No match: no 'hand_raise' event is concurrent to S4 talking (10-20 s)",
+    "events": [],
+    "evidence": [
+      {
+        "event_id": 1,
+        "person": "S4",
+        "action": "talking",
+        "t_start": 10.0,
+        "t_end": 20.0
+      }
+    ],
+    "confidence": 0.82,
+    "value": null,
+    "query": {
+      "select": {
+        "action": "hand_raise",
+        "person": null,
+        "zone": null
+      },
+      "relation": [
+        "concurrent"
+      ],
+      "to": {
+        "action": "talking",
+        "person": "S4",
+        "zone": null
+      },
+      "aggregate": "list",
+      "pick": "all",
+      "eps": 0.25
+    },
+    "proof_file": "examples/proof_q1.json"
+  },
+  "events_csv": "data/generated_events_2.csv",
+  "events_csv_sha256": "20a4f4c8f0baadb08f927532bef25f938e0637a6ad92c8012c9e955a33007135",
+  "created_utc": "2026-10-07T06:44:39+00:00"
+}

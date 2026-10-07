@@ -1,0 +1,6 @@
+Q: What happened right before S2 started sleeping?
+A: S4 talking (10-20 s), relative to S2 sleeping (20-55 s)
+   confidence: 0.76
+   event #1: S4 talking 10-20 s
+   compared with #2: S2 sleeping 20-55 s
+   proof: examples/proof_q2.json  (check with: python -m proof.verify examples/proof_q2.json)

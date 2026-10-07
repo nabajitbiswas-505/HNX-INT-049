@@ -1,0 +1,48 @@
+{
+  "question": "How many people used a phone?",
+  "query": {
+    "select": {
+      "action": "phone",
+      "person": null,
+      "zone": null
+    },
+    "relation": [],
+    "to": null,
+    "aggregate": "count_people",
+    "pick": "all",
+    "eps": 0.25
+  },
+  "planner_source": "rules",
+  "answer": {
+    "question": "How many people used a phone?",
+    "answer": "1 person(s): S3 phone (40-58 s)",
+    "events": [
+      {
+        "event_id": 4,
+        "person": "S3",
+        "action": "phone",
+        "t_start": 40.0,
+        "t_end": 58.0
+      }
+    ],
+    "evidence": [],
+    "confidence": 0.67,
+    "value": 1.0,
+    "query": {
+      "select": {
+        "action": "phone",
+        "person": null,
+        "zone": null
+      },
+      "relation": [],
+      "to": null,
+      "aggregate": "count_people",
+      "pick": "all",
+      "eps": 0.25
+    },
+    "proof_file": "examples/proof_q3.json"
+  },
+  "events_csv": "data/generated_events_2.csv",
+  "events_csv_sha256": "20a4f4c8f0baadb08f927532bef25f938e0637a6ad92c8012c9e955a33007135",
+  "created_utc": "2026-10-07T06:44:42+00:00"
+}

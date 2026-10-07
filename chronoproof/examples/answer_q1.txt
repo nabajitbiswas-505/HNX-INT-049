@@ -1,0 +1,5 @@
+Q: Who raised a hand while S4 was talking?
+A: No match: no 'hand_raise' event is concurrent to S4 talking (10-20 s)
+   confidence: 0.82
+   compared with #1: S4 talking 10-20 s
+   proof: examples/proof_q1.json  (check with: python -m proof.verify examples/proof_q1.json)

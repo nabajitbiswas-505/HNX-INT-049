@@ -1,0 +1,48 @@
+{
+  "question": "How long did S2 sleep?",
+  "query": {
+    "select": {
+      "action": "sleeping",
+      "person": "S2",
+      "zone": null
+    },
+    "relation": [],
+    "to": null,
+    "aggregate": "total_duration",
+    "pick": "all",
+    "eps": 0.25
+  },
+  "planner_source": "rules",
+  "answer": {
+    "question": "How long did S2 sleep?",
+    "answer": "35 s in total: S2 sleeping (20-55 s)",
+    "events": [
+      {
+        "event_id": 2,
+        "person": "S2",
+        "action": "sleeping",
+        "t_start": 20.0,
+        "t_end": 55.0
+      }
+    ],
+    "evidence": [],
+    "confidence": 0.76,
+    "value": 35.0,
+    "query": {
+      "select": {
+        "action": "sleeping",
+        "person": "S2",
+        "zone": null
+      },
+      "relation": [],
+      "to": null,
+      "aggregate": "total_duration",
+      "pick": "all",
+      "eps": 0.25
+    },
+    "proof_file": "examples/proof_q5.json"
+  },
+  "events_csv": "data/generated_events_2.csv",
+  "events_csv_sha256": "20a4f4c8f0baadb08f927532bef25f938e0637a6ad92c8012c9e955a33007135",
+  "created_utc": "2026-10-07T06:44:44+00:00"
+}

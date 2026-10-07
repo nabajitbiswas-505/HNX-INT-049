@@ -1,0 +1,190 @@
+Event_ID,Person_ID,Action,Start_Sec,End_Sec,Duration_Sec,Seat_Zone,Confidence
+1,S18,leaning down,0.0,1.0,1.0,R2C1,0.35
+2,S3,"leaning down, hands near face",0.0,1.5,1.5,R2C1,0.89
+3,S1,leaning down,0.5,1.5,1.0,R2C2,0.9
+4,S5,leaning down,0.5,1.5,1.0,R2C2,0.76
+5,S4,"leaning down, hands near face",0.0,4.0,4.0,R2C1,0.88
+6,S9,"leaning down, hands near face",0.0,4.0,4.0,R2C1,0.76
+7,S5,"leaning down, hands near face",1.5,4.0,2.5,R2C2,0.82
+8,S10,"leaning down, hands near face",0.0,4.5,4.5,R1C1,0.75
+9,S12,"leaning down, hands near face",0.0,5.5,5.5,R1C1,0.7
+10,S18,leaning down,4.5,5.5,1.0,R2C1,0.37
+11,S12,"leaning down, hands near face",6.0,7.5,1.5,R1C1,0.38
+12,S22,"leaning down, hands near face",3.0,8.5,5.5,R2C2,0.55
+13,S2,"leaning down, hands near face",0.0,9.0,9.0,R1C2,0.9
+14,S1,"leaning down, interacting with dining table",1.5,9.0,7.5,R2C2,0.9
+15,S3,"leaning down, hands near face, interacting with dining table",1.5,9.0,7.5,R2C1,0.91
+16,S22,leaning down,8.5,9.5,1.0,R2C2,0.85
+17,S11,"leaning down, hands near face",0.0,10.0,10.0,R1C2,0.73
+18,S9,"leaning down, hands near face",6.0,10.0,4.0,R2C1,0.84
+19,S22,leaning down,10.0,11.0,1.0,R2C2,0.83
+20,S9,leaning down,10.0,11.0,1.0,R2C1,0.7
+21,S14,"leaning down, hands near face",0.0,11.5,11.5,R1C2,0.64
+22,S11,"leaning down, hands near face",10.5,11.5,1.0,R1C2,0.57
+23,S17,"leaning down, hands near face",0.0,12.0,12.0,R1C1,0.48
+24,S12,"leaning down, hands near face",11.5,12.5,1.0,R1C1,0.35
+25,S9,"leaning down, hands near face",11.0,13.0,2.0,R2C1,0.87
+26,S10,"leaning down, hands near face",5.5,14.5,9.0,R1C1,0.62
+27,S1,leaning down,9.0,14.5,5.5,R2C2,0.91
+28,S5,"leaning down, hands near face",11.5,14.5,3.0,R2C2,0.74
+29,S6,"leaning down, hands near face",0.0,15.0,15.0,R2C1,0.84
+30,S24,"leaning down, hands near face",8.0,15.0,7.0,R1C2,0.48
+31,S3,"leaning down, hands near face",9.0,15.0,6.0,R2C1,0.9
+32,S29,"leaning down, hands near face",12.5,15.0,2.5,R2C2,0.57
+33,S7,"leaning down, hands near face",0.0,16.0,16.0,R1C1,0.83
+34,S1,"leaning down, hands near face, interacting with bench",15.0,16.0,1.0,R2C2,0.88
+35,S5,"leaning down, hands near face, interacting with bench",15.0,16.0,1.0,R2C2,0.64
+36,S2,"leaning down, hands near face",14.5,16.5,2.0,R1C2,0.46
+37,S7,leaning down,16.0,18.0,2.0,R1C1,0.84
+38,S17,"leaning down, hands near face",16.0,18.0,2.0,R1C1,0.38
+39,S2,"leaning down, hands near face",18.0,19.0,1.0,R1C2,0.41
+40,S7,leaning down,18.5,20.5,2.0,R1C1,0.84
+41,S12,"leaning down, hands near face",19.5,20.5,1.0,R1C1,0.38
+42,S17,"leaning down, hands near face",18.5,21.0,2.5,R1C1,0.45
+43,S2,"leaning down, hands near face",19.5,21.0,1.5,R1C2,0.35
+44,S16,"leaning down, hands near face",0.0,22.5,22.5,R1C1,0.56
+45,S3,"leaning down, hands near face, interacting with bench",15.0,23.0,8.0,R2C1,0.91
+46,S6,"leaning down, hands near face, interacting with bench",15.0,23.0,8.0,R2C1,0.84
+47,S24,"leaning down, hands near face, interacting with bench",15.0,23.0,8.0,R1C2,0.66
+48,S29,"leaning down, hands near face, interacting with bench",15.5,23.0,7.5,R2C2,0.4
+49,S1,"leaning down, interacting with bench",16.0,23.0,7.0,R2C2,0.91
+50,S29,"leaning down, hands near face",23.0,24.0,1.0,R2C2,0.82
+51,S15,"leaning down, hands near face",0.0,24.5,24.5,R1C1,0.61
+52,S7,"leaning down, hands near face",20.5,24.5,4.0,R1C1,0.84
+53,S13,"leaning down, hands near face",0.0,25.0,25.0,R1C1,0.67
+54,S7,leaning down,24.5,25.5,1.0,R1C1,0.8
+55,S8,"leaning down, hands near face",0.0,26.5,26.5,R1C1,0.8
+56,S5,"leaning down, hands near face",23.5,27.5,4.0,R2C2,0.61
+57,S2,"leaning down, hands near face",26.5,28.0,1.5,R1C2,0.43
+58,S4,"leaning down, hands near face",4.5,28.5,24.0,R2C1,0.88
+59,S9,"leaning down, hands near face",13.5,28.5,15.0,R2C1,0.85
+60,S8,"leaning down, interacting with backpack",27.5,28.5,1.0,R1C1,0.72
+61,S4,"leaning down, hands near face, interacting with bench",29.5,30.5,1.0,R2C1,0.89
+62,S9,"leaning down, hands near face, interacting with bench",29.5,30.5,1.0,R2C1,0.71
+63,S8,"leaning down, hands near face",28.5,31.0,2.5,R1C1,0.76
+64,S30,"leaning down, hands near face",30.0,31.0,1.0,R2C2,0.4
+65,S4,"leaning down, hands near face",30.5,31.5,1.0,R2C1,0.89
+66,S11,"leaning down, hands near face",12.0,32.0,20.0,R1C2,0.82
+67,S3,"leaning down, hands near face",23.0,32.0,9.0,R2C1,0.91
+68,S2,"leaning down, hands near face",28.5,32.0,3.5,R1C2,0.35
+69,S14,"leaning down, hands near face",12.0,33.5,21.5,R1C2,0.74
+70,S30,"leaning down, hands near face",32.0,33.5,1.5,R2C2,0.64
+71,S32,"leaning down, hands near face",32.5,33.5,1.0,R1C1,0.57
+72,S9,"leaning down, hands near face",30.5,34.0,3.5,R2C1,0.7
+73,S8,"leaning down, hands near face",32.0,34.0,2.0,R1C1,0.77
+74,S1,leaning down,23.0,34.5,11.5,R2C2,0.91
+75,S3,"leaning down, hands near face",32.5,34.5,2.0,R2C1,0.81
+76,S8,"leaning down, interacting with backpack",34.5,35.5,1.0,R1C1,0.57
+77,S13,"leaning down, hands near face, interacting with backpack",34.5,35.5,1.0,R1C1,0.49
+78,S37,"leaning down, hands near face",34.5,36.0,1.5,R1C1,0.73
+79,S38,"leaning down, hands near face",35.5,36.5,1.0,R1C1,0.39
+80,S15,"leaning down, hands near face",25.0,37.0,12.0,R1C1,0.43
+81,S37,leaning down,36.0,37.5,1.5,R1C1,0.77
+82,S8,leaning down,36.5,37.5,1.0,R1C1,0.82
+83,S9,"leaning down, hands near face",35.0,38.5,3.5,R2C1,0.59
+84,S8,"leaning down, hands near face, interacting with backpack",37.5,38.5,1.0,R1C1,0.43
+85,S39,"leaning down, hands near face",37.0,39.5,2.5,R1C1,0.39
+86,S8,"leaning down, hands near face",38.5,40.0,1.5,R1C1,0.73
+87,S37,moving actively,38.5,40.0,1.5,R1C1,0.84
+88,S13,"leaning down, hands near face",38.5,40.5,2.0,R1C1,0.41
+89,S14,"leaning down, hands near face",34.0,42.0,8.0,R1C2,0.6
+90,S30,"leaning down, hands near face",34.0,42.0,8.0,R2C2,0.65
+91,S5,"leaning down, hands near face",38.0,42.0,4.0,R2C2,0.43
+92,S37,moving actively,40.5,42.0,1.5,R1C1,0.87
+93,S9,"leaning down, hands near face",41.0,42.0,1.0,R2C1,0.38
+94,S8,leaning down,41.0,42.5,1.5,R1C1,0.67
+95,S39,"leaning down, hands near face",41.5,42.5,1.0,R1C1,0.41
+96,S15,"leaning down, hands near face",39.5,43.0,3.5,R1C1,0.38
+97,S37,moving actively,42.5,43.5,1.0,R2C1,0.91
+98,S30,"leaning down, hands near face",42.5,43.5,1.0,R2C2,0.37
+99,S14,"leaning down, hands near face",42.5,44.0,1.5,R1C2,0.41
+100,S17,"leaning down, hands near face",43.0,44.0,1.0,R1C1,0.39
+101,S4,"leaning down, hands near face",32.0,44.5,12.5,R2C1,0.88
+102,S42,leaning down,43.0,44.5,1.5,R1C1,0.76
+103,S9,"leaning down, hands near face",42.5,45.0,2.5,R2C1,0.46
+104,S13,"leaning down, hands near face",43.0,45.5,2.5,R1C1,0.53
+105,S14,"leaning down, hands near face",44.5,45.5,1.0,R1C2,0.69
+106,S6,"leaning down, hands near face",23.0,46.0,23.0,R2C1,0.81
+107,S24,"leaning down, hands near face",23.0,46.0,23.0,R1C2,0.73
+108,S29,"leaning down, hands near face",27.0,46.0,19.0,R2C2,0.67
+109,S1,leaning down,35.0,46.0,11.0,R2C2,0.91
+110,S3,"leaning down, hands near face",35.0,46.0,11.0,R2C1,0.81
+111,S42,leaning down,45.0,46.0,1.0,R1C1,0.81
+112,S2,"leaning down, hands near face",44.5,48.0,3.5,R1C2,0.35
+113,S1,"sitting upright, hands near face",46.5,48.0,1.5,R2C2,0.89
+114,S12,"leaning down, hands near face",45.0,48.5,3.5,R1C1,0.36
+115,S43,leaning down,46.5,49.5,3.0,R1C1,0.38
+116,S1,sitting upright,48.0,49.5,1.5,R2C2,0.91
+117,S42,"leaning down, hands near face",46.0,50.5,4.5,R1C1,0.73
+118,S13,"leaning down, hands near face",47.0,50.5,3.5,R1C1,0.41
+119,S6,leaning down,48.0,50.5,2.5,R2C1,0.84
+120,S14,"leaning down, hands near face",48.0,50.5,2.5,R1C2,0.72
+121,S12,"leaning down, hands near face",49.0,50.5,1.5,R1C1,0.5
+122,S4,"leaning down, hands near face",45.0,51.5,6.5,R2C1,0.8
+123,S9,"leaning down, hands near face",45.5,51.5,6.0,R2C1,0.88
+124,S29,"leaning down, hands near face",46.5,51.5,5.0,R2C2,0.78
+125,S15,"leaning down, hands near face",48.5,52.5,4.0,R1C1,0.43
+126,S42,"leaning down, hands near face, interacting with backpack",50.5,52.5,2.0,R1C1,0.73
+127,S12,"leaning down, hands near face, interacting with backpack",50.5,52.5,2.0,R1C1,0.52
+128,S14,"leaning down, hands near face",51.0,52.5,1.5,R1C2,0.68
+129,S13,"leaning down, hands near face, interacting with backpack",51.5,52.5,1.0,R1C1,0.48
+130,S11,"leaning down, hands near face",36.0,53.0,17.0,R1C2,0.39
+131,S17,"leaning down, hands near face",46.0,53.5,7.5,R1C1,0.48
+132,S4,"leaning down, hands near face",52.0,53.5,1.5,R2C1,0.88
+133,S9,"leaning down, hands near face",52.0,53.5,1.5,R2C1,0.83
+134,S43,leaning down,52.5,53.5,1.0,R1C1,0.44
+135,S14,"leaning down, hands near face, interacting with laptop",52.5,54.0,1.5,R1C2,0.54
+136,S1,sitting upright,50.0,55.0,5.0,R2C2,0.92
+137,S13,"leaning down, hands near face",52.5,56.5,4.0,R1C1,0.53
+138,S1,"leaning down, hands near face",55.0,56.5,1.5,R2C2,0.89
+139,S29,leaning down,51.5,57.0,5.5,R2C2,0.86
+140,S46,"leaning down, hands near face",54.0,58.0,4.0,R1C1,0.45
+141,S39,"leaning down, hands near face",43.0,58.5,15.5,R1C1,0.4
+142,S15,"leaning down, hands near face",53.0,59.0,6.0,R1C1,0.37
+143,S5,leaning down,53.5,59.0,5.5,R2C2,0.77
+144,S1,leaning down,56.5,59.0,2.5,R2C2,0.83
+145,S30,"leaning down, hands near face",57.5,59.0,1.5,R2C2,0.5
+146,S2,"leaning down, hands near face",54.0,60.0,6.0,R1C2,0.54
+147,S9,"leaning down, hands near face",54.0,60.5,6.5,R2C1,0.83
+148,S17,"leaning down, hands near face",59.0,61.5,2.5,R1C1,0.44
+149,S24,"leaning down, hands near face",46.5,62.0,15.5,R1C2,0.71
+150,S12,"leaning down, hands near face",52.5,62.5,10.0,R1C1,0.45
+151,S24,leaning down,62.0,63.0,1.0,R1C2,0.57
+152,S2,leaning down,62.0,63.0,1.0,R1C2,0.42
+153,S11,"leaning down, hands near face",53.5,63.5,10.0,R1C2,0.84
+154,S1,sitting upright,59.0,64.0,5.0,R2C2,0.91
+155,S15,"leaning down, hands near face",63.0,64.0,1.0,R1C1,0.36
+156,S9,"leaning down, hands near face",63.0,64.5,1.5,R2C1,0.43
+157,S29,leaning down,59.0,65.0,6.0,R2C2,0.87
+158,S39,"leaning down, hands near face",64.0,65.5,1.5,R1C1,0.55
+159,S1,leaning down,65.0,66.0,1.0,R2C2,0.92
+160,S5,leaning down,65.0,66.0,1.0,R2C2,0.6
+161,S12,"leaning down, hands near face",63.0,67.0,4.0,R1C1,0.37
+162,S13,"leaning down, hands near face",64.0,67.0,3.0,R1C1,0.48
+163,S29,"leaning down, hands near face",66.0,67.5,1.5,R2C2,0.6
+164,S1,"leaning down, interacting with laptop",66.0,68.0,2.0,R2C2,0.91
+165,S13,"leaning down, hands near face",68.0,69.0,1.0,R1C1,0.36
+166,S4,"leaning down, hands near face",54.0,69.5,15.5,R2C1,0.87
+167,S11,"leaning down, hands near face",64.0,69.5,5.5,R1C2,0.6
+168,S9,"leaning down, hands near face",65.0,69.5,4.5,R2C1,0.88
+169,S29,leaning down,67.5,69.5,2.0,R2C2,0.69
+170,S5,leaning down,68.0,69.5,1.5,R2C2,0.51
+171,S1,"leaning down, interacting with laptop",68.5,69.5,1.0,R2C2,0.9
+172,S24,"leaning down, hands near face",63.5,70.0,6.5,R1C2,0.72
+173,S1,sitting upright,69.5,70.5,1.0,R2C2,0.91
+174,S4,"leaning down, hands near face",70.0,71.0,1.0,R2C1,0.9
+175,S9,"leaning down, hands near face",70.0,71.0,1.0,R2C1,0.85
+176,S39,"leaning down, hands near face",69.0,71.5,2.5,R1C1,0.38
+177,S43,leaning down,69.5,71.5,2.0,R1C1,0.44
+178,S20,"leaning down, hands near face",1.0,71.7,70.7,R1C1,0.44
+179,S7,"leaning down, hands near face",25.5,71.7,46.2,R1C1,0.83
+180,S3,"leaning down, hands near face",46.5,71.7,25.2,R2C1,0.85
+181,S6,"leaning down, hands near face",50.5,71.7,21.2,R2C1,0.81
+182,S42,"leaning down, hands near face",52.5,71.7,19.2,R1C1,0.78
+183,S14,"leaning down, hands near face",54.5,71.7,17.2,R1C2,0.69
+184,S15,"leaning down, hands near face",67.0,71.7,4.7,R1C1,0.45
+185,S12,"leaning down, hands near face",68.5,71.7,3.2,R1C1,0.38
+186,S2,"leaning down, hands near face",69.5,71.7,2.2,R1C2,0.66
+187,S30,"leaning down, hands near face",69.5,71.7,2.2,R1C2,0.7
+188,S13,"leaning down, hands near face",69.5,71.7,2.2,R1C1,0.57
+189,S29,leaning down,70.0,71.7,1.7,R2C2,0.76

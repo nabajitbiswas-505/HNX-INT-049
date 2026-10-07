@@ -1,0 +1,68 @@
+{
+  "question": "Who was sleeping while S3 was on the phone?",
+  "query": {
+    "select": {
+      "action": "sleeping",
+      "person": null,
+      "zone": null
+    },
+    "relation": [
+      "concurrent"
+    ],
+    "to": {
+      "action": "phone",
+      "person": "S3",
+      "zone": null
+    },
+    "aggregate": "list",
+    "pick": "all",
+    "eps": 0.25
+  },
+  "planner_source": "rules",
+  "answer": {
+    "question": "Who was sleeping while S3 was on the phone?",
+    "answer": "S2 sleeping (20-55 s), relative to S3 phone (40-58 s)",
+    "events": [
+      {
+        "event_id": 2,
+        "person": "S2",
+        "action": "sleeping",
+        "t_start": 20.0,
+        "t_end": 55.0
+      }
+    ],
+    "evidence": [
+      {
+        "event_id": 4,
+        "person": "S3",
+        "action": "phone",
+        "t_start": 40.0,
+        "t_end": 58.0
+      }
+    ],
+    "confidence": 0.67,
+    "value": null,
+    "query": {
+      "select": {
+        "action": "sleeping",
+        "person": null,
+        "zone": null
+      },
+      "relation": [
+        "concurrent"
+      ],
+      "to": {
+        "action": "phone",
+        "person": "S3",
+        "zone": null
+      },
+      "aggregate": "list",
+      "pick": "all",
+      "eps": 0.25
+    },
+    "proof_file": "examples/proof_q4.json"
+  },
+  "events_csv": "data/generated_events_2.csv",
+  "events_csv_sha256": "20a4f4c8f0baadb08f927532bef25f938e0637a6ad92c8012c9e955a33007135",
+  "created_utc": "2026-10-07T06:44:43+00:00"
+}

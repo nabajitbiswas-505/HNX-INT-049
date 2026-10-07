@@ -1,0 +1,5 @@
+Q: How many people used a phone?
+A: 1 person(s): S3 phone (40-58 s)
+   confidence: 0.67
+   event #4: S3 phone 40-58 s
+   proof: examples/proof_q3.json  (check with: python -m proof.verify examples/proof_q3.json)

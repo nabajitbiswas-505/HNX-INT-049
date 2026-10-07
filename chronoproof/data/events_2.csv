@@ -1,0 +1,5 @@
+Event_ID,Person_ID,Action,Start_Sec,End_Sec,Duration_Sec,Seat_Zone,Confidence
+1,S4,talking,10.0,20.0,10.0,R3C2,0.80
+2,S2,sleeping,20.0,55.0,35.0,R2C2,0.85
+3,S1,hand_raise,30.0,34.5,4.5,R1C1,0.90
+4,S3,phone,40.0,58.0,18.0,R3C1,0.82

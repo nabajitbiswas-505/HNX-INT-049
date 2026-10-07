@@ -1,0 +1,6 @@
+Q: Who was sleeping while S3 was on the phone?
+A: S2 sleeping (20-55 s), relative to S3 phone (40-58 s)
+   confidence: 0.67
+   event #2: S2 sleeping 20-55 s
+   compared with #4: S3 phone 40-58 s
+   proof: examples/proof_q4.json  (check with: python -m proof.verify examples/proof_q4.json)

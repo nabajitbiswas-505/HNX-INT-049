@@ -1,0 +1,9 @@
+Event_ID,Person_ID,Action,Start_Sec,End_Sec,Duration_Sec,Seat_Zone,Confidence
+1,S2,sitting upright,0.0,1.4,1.4,R1C2,0.72
+2,S1,"sitting upright, interacting with bench",0.0,2.3,2.3,R2C1,0.95
+3,S4,sitting upright,0.0,2.3,2.3,R1C2,0.41
+4,S2,"sitting upright, hands near face",3.7,5.6,1.9,R1C2,0.74
+5,S1,"sitting upright, interacting with bench & cell phone",4.7,7.0,2.3,R2C2,0.95
+6,S1,"sitting upright, interacting with bench",7.0,8.9,1.9,R2C2,0.96
+7,S2,"leaning down, hands near face",5.6,10.9,5.3,R1C2,0.69
+8,S1,"sitting upright, interacting with bench",9.3,10.9,1.6,R2C2,0.95

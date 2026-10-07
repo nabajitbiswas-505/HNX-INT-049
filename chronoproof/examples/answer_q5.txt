@@ -1,0 +1,5 @@
+Q: How long did S2 sleep?
+A: 35 s in total: S2 sleeping (20-55 s)
+   confidence: 0.76
+   event #2: S2 sleeping 20-55 s
+   proof: examples/proof_q5.json  (check with: python -m proof.verify examples/proof_q5.json)
